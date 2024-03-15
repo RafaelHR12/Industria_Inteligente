@@ -35,13 +35,13 @@ public class Produto {
 			this.descricao = descricao;
 		}
 		//Lista de componentes 
-	    private ArrayList<Componetes> componentes;
+	    private ArrayList<Componentes> componentes;
 	    
 	    public Produto() {
 	        this.componentes = new ArrayList<>();
 	    }
 	    
-	    public void addComponentes(Componetes componente) {
+	    public void addComponentes(Componentes componente) {
 	    	componentes.add(componente);
 	    }
 		public String getProcessoFabricacao() {
