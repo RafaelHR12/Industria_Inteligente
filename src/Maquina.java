@@ -34,7 +34,7 @@ public class Maquina {
 		return tipoMaquina;
 	}
 	public void setTipoMaquina(String tipoMaquina) {
-		if (tipoMaquina.length() > 5)
+		if (tipoMaquina.length() >= 1)
 			this.tipoMaquina = tipoMaquina;
 		else 
 			System.out.println("Tipo inválido!");

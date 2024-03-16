@@ -30,14 +30,13 @@ public class Pedido {
 		return precoTotal;
 	}
 	public void setPrecoTotal(double precoTotal) {
-		if (precoTotal > 0)
-			this.precoTotal += produto.getPreco();
+		this.precoTotal += produto.getPreco();
 	}
 	
-	public double getQuantidadeTotal() {
+	public double getQtddTotal() {
 		return precoTotal;
 	}
-	public void setQuantidadeTotal(double qtddTotal) {
+	public void setQtddTotal(double qtddTotal) {
 		if (qtddTotal > 0)
 			this.qtddTotal += produto.getQtddProduto();
 	}
